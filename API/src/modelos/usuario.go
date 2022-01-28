@@ -8,6 +8,6 @@ type Usuario struct {
 	Nome     string    `json:"id,omitempty"`
 	Nick     string    `json:"id,omitempty"`
 	Email    string    `json:"id,omitempty"`
-	Password string    `json:"id,omitempty"`
+	Senha    string    `json:"id,omitempty"`
 	CriadoEm time.Time `json:"id,omitempty"`
 }
